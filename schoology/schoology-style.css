@@ -1,0 +1,16 @@
+/* global tweaks */
+#header header {
+  border-top-color: #496bbe !important;
+}
+
+.CustomBrandingLogo-vertical-strip-background-color-3_NIE {
+  display: none !important;
+}
+
+/* center icons in submit model */
+#resources-left-menu-wrapper a {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-items: center !important;
+  align-items: center !important;
+}
