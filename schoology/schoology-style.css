@@ -7,6 +7,15 @@
   display: none !important;
 }
 
+/* home page tweaks */
+.recently-completed-wrapper {
+  display: none !important;
+}
+
+.sgy-tabbed-navigation {
+  display: none !important;
+}
+
 /* center icons in submit model */
 #resources-left-menu-wrapper a {
   display: flex !important;
