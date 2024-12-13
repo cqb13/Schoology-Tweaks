@@ -27,7 +27,7 @@ for (const div of allDivs) {
     }
   }
 
-  if (/^\d+ unread notification$/.test(ariaLabel)) {
+  if (/^\d+ unread notifications$/.test(ariaLabel)) {
     const spanChild = div.querySelector("span");
     if (spanChild) {
       spanChild.remove();
