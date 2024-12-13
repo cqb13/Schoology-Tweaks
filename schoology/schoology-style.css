@@ -12,6 +12,14 @@
   display: none !important;
 }
 
+.sHome-processed {
+  margin-top: 0px !important;
+}
+
+#right-column-inner {
+  padding-top: 15px !important;
+}
+
 .sgy-tabbed-navigation {
   display: none !important;
 }
