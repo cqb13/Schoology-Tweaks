@@ -1,10 +1,59 @@
 /* global tweaks */
+html {
+  scroll-behavior: smooth;
+}
+
+nav li a,
+.my,
+.nline-icon,
+.large-icon,
+.resource-area-links span,
+.page-title a,
+.app-link span,
+.menu a {
+  color: #444 !important;
+}
+
+.comment-author a,
+.long-username a {
+  color: #415380 !important;
+}
+
+.smartbox-boxtab,
+#edge-filters span,
+.like-btn,
+.ajax-post-comment,
+body a {
+  color: #496bbe !important;
+}
+
 #header header {
   border-top-color: #496bbe !important;
 }
 
+/* Feeds */
+
 .CustomBrandingLogo-vertical-strip-background-color-3_NIE {
   display: none !important;
+}
+
+.s-edge-feed-more-link {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.s-edge-feed-more-link {
+  width: fit !important;
+}
+
+#home-feed-container {
+  position: relative;
+}
+
+.st-feed-top-link {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
 }
 
 /* home page tweaks */

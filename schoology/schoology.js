@@ -39,3 +39,14 @@ for (const div of allDivs) {
     break;
   }
 }
+
+const feedFooter = document.getElementById("home-feed-container");
+
+if (feedFooter) {
+  const link = document.createElement("a");
+  link.href = "#header";
+  link.className =
+    "active sExtlink-processed sEdgeMore-processed st-feed-top-link";
+  link.textContent = "Top";
+  feedFooter.appendChild(link);
+}
