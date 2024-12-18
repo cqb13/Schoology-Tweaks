@@ -3,6 +3,17 @@ html {
   scroll-behavior: smooth;
 }
 
+#todo,
+#upcoming-events,
+#home-feed-container,
+.profile-picture img {
+  border-radius: 5px !important;
+}
+
+#site-navigation-breadcrumbs {
+  display: none;
+}
+
 nav li a,
 .my,
 .nline-icon,
@@ -31,7 +42,14 @@ body a {
   border-top-color: #496bbe !important;
 }
 
+footer div div nav {
+  display: none !important;
+}
+
 /* Feeds */
+.filter-block li span:hover {
+  text-decoration: underline;
+}
 
 .CustomBrandingLogo-vertical-strip-background-color-3_NIE {
   display: none !important;
