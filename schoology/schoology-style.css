@@ -74,6 +74,10 @@ footer div div nav {
   bottom: 15px;
 }
 
+.feed-comments {
+  background-color: white !important;
+}
+
 /* home page tweaks */
 .recently-completed-wrapper {
   display: none !important;
