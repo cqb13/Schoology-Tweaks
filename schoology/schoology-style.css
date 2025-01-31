@@ -51,6 +51,11 @@ footer div div nav {
   text-decoration: underline;
 }
 
+.school-arrow-right,
+.green-arrow-right {
+  margin-bottom: 4px !important;
+}
+
 .CustomBrandingLogo-vertical-strip-background-color-3_NIE {
   display: none !important;
 }
