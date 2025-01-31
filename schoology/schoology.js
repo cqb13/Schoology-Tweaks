@@ -54,7 +54,7 @@ if (feedFooter) {
 const nav = document.querySelector('nav[role="navigation"]');
 
 const newUl = document.createElement("ul");
-newUl.className = "_2trRU *2K08O fSqCh *1tpub countdown";
+newUl.className = "_2trRU _2K08O fSqCh _1tpub countdown";
 
 const timerHTML = `
   <li class="countdown-item">
