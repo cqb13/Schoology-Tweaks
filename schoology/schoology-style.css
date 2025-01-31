@@ -102,3 +102,30 @@ footer div div nav {
   justify-items: center !important;
   align-items: center !important;
 }
+
+/* nav countdown */
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.countdown-item {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.countdown-item span,
+.countdown li span {
+  display: block;
+  font-weight: 400;
+  font-size: 1.4rem;
+  font-family: var(--sgy-font-default, "Open Sans", sans-serif);
+}
+.countdown-item .label {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
