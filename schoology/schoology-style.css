@@ -134,3 +134,44 @@ footer div div nav {
   font-weight: 400;
   font-size: 1.4rem;
 }
+
+.zJU7e {
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+  outline-style: hidden !important;
+  background: rgb(255, 255, 255, 0.1) !important;
+  outline: hidden !important;
+}
+
+.Card-card-image-uV6Bu {
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+  outline-style: hidden !important;
+  outline: hidden !important;
+}
+
+.Card-card-1Qd8e {
+  border: hidden !important;
+  border-radius: 1rem !important;
+  outline-style: hidden !important;
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: 10px -10px 30px rgba(0, 0, 0, 0.1) !important;
+  transition: ease-in-out 0.2s;
+}
+
+.Card-card-1Qd8e:hover {
+  box-shadow: 10px 0px 30px rgba(73, 107, 190, 0.3) !important;
+}
+
+.Card-card-data-17m6S {
+  border-bottom-left-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+}
+
+.Ivlky {
+  outline: hidden !important;
+  border-color: white !important;
+  border: hidden !important;
+  outline-style: hidden !important;
+}
