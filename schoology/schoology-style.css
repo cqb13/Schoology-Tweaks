@@ -46,6 +46,34 @@ footer div div nav {
   display: none !important;
 }
 
+.submit-span-wrapper,
+#edit-course-switcher-select-nid-button,
+.link-btn {
+  border-radius: 0.3rem !important;
+}
+
+#edge-filters-menu,
+#edit-course-switcher-select-nid-menu,
+.inline-popup-wrapper,
+.action-links {
+  border-radius: 0.5rem;
+}
+
+/* Calendar */
+.fc-corner-left {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.fc-corner-right {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.fc-event {
+  border-radius: 0px !important;
+}
+
 /* Feeds */
 .filter-block li span:hover {
   text-decoration: underline;
