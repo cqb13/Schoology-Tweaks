@@ -19,7 +19,7 @@ for (const div of allDivs) {
     foundSearchIcon = true;
   }
 
-  if (/^\d+ unread messages$/.test(ariaLabel)) {
+  if (/^\d+ unread message$/.test(ariaLabel)) {
     const spanChild = div.querySelector("span");
     if (spanChild) {
       spanChild.remove();
@@ -27,7 +27,7 @@ for (const div of allDivs) {
     }
   }
 
-  if (/^\d+ unread notifications$/.test(ariaLabel)) {
+  if (/^\d+ unread notification$/.test(ariaLabel)) {
     const spanChild = div.querySelector("span");
     if (spanChild) {
       spanChild.remove();
