@@ -104,11 +104,6 @@ li .ng-scope:hover,
   text-decoration: underline;
 }
 
-.school-arrow-right,
-.green-arrow-right {
-  margin-bottom: 4.5px !important;
-}
-
 .CustomBrandingLogo-vertical-strip-background-color-3_NIE {
   display: none !important;
 }
@@ -130,6 +125,15 @@ li .ng-scope:hover,
   position: absolute;
   right: 15px;
   bottom: 15px;
+}
+
+p .sExtlink-processed {
+  margin-bottom: -5px !important;
+}
+
+.school-arrow-right,
+.green-arrow-right {
+  margin-bottom: 4.5px !important;
 }
 
 .feed-comments {
