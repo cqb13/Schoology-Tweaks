@@ -59,6 +59,31 @@ footer div div nav {
   border-radius: 0.5rem;
 }
 
+/* Hover background fix's */
+li .ng-scope,
+.ng-binding,
+.action-links li,
+.edge-filter-option {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+li .ng-scope:hover,
+.ng-binding:hover,
+.action-links li:hover,
+.action-links a:hover,
+.edge-filter-option:hover {
+  background: rgb(69, 69, 69, 0.4) !important;
+  background-color: rgb(69, 69, 69, 0.2) !important;
+  transition: ease-in-out 250ms !important;
+  border-radius: 0.3rem;
+}
+
+.ui-selectmenu-group-label:hover {
+  background: none !important;
+  background-color: none !important;
+}
+
 /* Calendar */
 .fc-corner-left {
   border-top-left-radius: 0.5rem;
@@ -223,6 +248,11 @@ footer div div nav {
 .group-albums-left-menu,
 .group-member-left-menu,
 .group-documents-left-menu,
+.school-profile-left-menu,
+.school-info-left-menu,
+.school-faculty-left-menu,
+.school-materials-left-menu,
+.school-discussion-left-menu,
 .app-link {
   border-bottom-left-radius: 0.5rem !important;
   border-top-left-radius: 0.5rem !important;
