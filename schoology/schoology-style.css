@@ -176,3 +176,18 @@ footer div div nav {
   border: hidden !important;
   outline-style: hidden !important;
 }
+
+/* Course Page */
+#main-content-wrapper {
+  border-bottom-left-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+}
+
+.course-materials-left-menu,
+.course-updates-left-menu,
+.course-student-grade-left-menu,
+.course-profile-left-menu,
+.app-link {
+  border-bottom-left-radius: 0.5rem !important;
+  border-top-left-radius: 0.5rem !important;
+}
